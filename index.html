@@ -1,12 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <title>Website Portfolio</title>
   </head>
-  <body>
-    <h1>Hallo Guys!</h1>
-    <h4>Lagi Ngapain?</h4>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="margin-top: 2px"> <img src="/img/logo.jpg" alt="" width="58" height="40" class="d-inline-block align-text-top ms-3" style="margin-right: 8%" />Zwann's</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto ms-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/profil.jpeg" width="200" class="rounded-circle img-thumbnail" />
+      <h2 class="display-5">Hello! | I'm Muhammad Rizwan</h2>
+      <p class="lead">Saya adalah mahasiswa aktif di kampus Sekolah Tinggi Teknologi Indonesia Tanjungpinang, Program Studi Teknik Informatika semester 6</p>
+      <hr class="my-4" />
+      <p>About Me? Click here</p>
+      <a class="btn btn-primary btn-lg" href="#about" role="button">About Me</a>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="container mb-3" style="margin-top: 2%">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row text-start">
+          <div class="col-md-8 mb-3">
+            <h6>Nama : Muhammad Rizwan</h6>
+            <h6>Tempat/Tanggal Lahir : Tanjungpinang / 22 Mei 2003</h6>
+            <h6>Asal Sekolah : SMAN 2 Tanjungpinang</h6>
+            <h6>Keahlian : HTML, CSS, Javascript, Database MySQL, Word, Excel</h6>
+            <h6>No. HP : 083176998124</h6>
+            <h6>Email : mrizwan2205@gmail.com</h6>
+            <h6>
+              Pengalaman : 1. Mengikuti mini bootcamp dengan tema ”Web Development from basics to Career Planning” yang diadakan oleh edspert.id, 2. Pernah meneliti data statistika menggunakan SPSS, 3. Membuat project website sederhana
+              menggunakan HTML, CSS, dan Javascript.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir About Me -->
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="container-hts pt-5 pb-5 bg-dark">
+        <div class="container text-center mb-3">
+          <h2 style="color: antiquewhite">My Portfolio</h2>
+        </div>
+        <div class="row text-start ms-3">
+          <div class="col">
+            <h3 style="color: antiquewhite">Projects</h3>
+          </div>
+        </div>
+        <div class="row pt-4 gx-4 gy-4 ms-3 me-3">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project1.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Ini adalah project yang saya buat pada semester 2, yaitu sebuah website toko online yang menjual berbagai macam kebutuhan dan aksesoris seperti baju, topi, dan lain sebagainya yang berhubungan dengan klub Manchester
+                  United.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project2.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah project yang saya buat pada semester 3, yaitu sebuah website toko online yang menjual berbagai macam peralatan olahraga, seperti jersey, sepatu olahraga, raket, dan lain sebagainya.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project3.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah project yang saya buat pada semester 3, yaitu sebuah website yang berisi tentang data diri dan pengalaman hidup, serta dapat menampilkan menu terkait screen time recorder dan inline.svg.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container-ygy pt-5 pb-5">
+        <div class="container text-start ms-3">
+          <h3>Skills</h3>
+        </div>
+        <div class="row pt-4 gx-4 gy-4 ms-3 me-3 justify-content-center">
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills1.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">UI / UX Designer : 60%.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills2.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">JavaScript : 70%.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills3.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">HTML : 90%.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills4.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">My SQL : 75%.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills5.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">Python : 50%.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="img/skills6.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-text">React Native : 75%.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container-anj pt-5 pb-5">
+        <div class="row text-center mb-3 mt-2">
+          <div class="col">
+            <h2 style="color: black">Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label" style="color: black">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" style="color: black">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label" style="color: black">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+      <p>Created With <i class="bi bi-heart-fill text-danger"></i> by M.R.</p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
