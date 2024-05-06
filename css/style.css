@@ -1,0 +1,21 @@
+.img {
+  border-radius: 100%;
+  margin-right: 16;
+}
+
+body {
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  background-color: #d5e3fa;
+}
+
+.container-hts {
+}
+
+.container-anj {
+  background: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg) no-repeat center center;
+  background-size: cover;
+}
